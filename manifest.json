@@ -1,0 +1,9 @@
+{
+	"id": "auto-delete-empty-untitled",
+	"name": "Auto-Delete Empty Untitled",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Automatically deletes empty 'Untitled' files when they are closed.",
+	"author": "Matthew Pinheiro",
+	"isDesktopOnly": false
+}
