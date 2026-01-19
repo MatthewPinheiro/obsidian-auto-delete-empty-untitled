@@ -1,5 +1,5 @@
 {
-	"name": "auto-delete-empty-untitled",
+	"name": "obsidian-auto-delete-empty-untitled",
 	"version": "1.0.0",
 	"description": "Automatically deletes empty 'Untitled' files when they are closed.",
 	"main": "main.js",
