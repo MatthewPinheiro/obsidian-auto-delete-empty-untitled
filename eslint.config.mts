@@ -21,7 +21,12 @@ export default tseslint.config(
 			},
 		},
 	},
-	...obsidianmd.configs.recommended,
+	...(obsidianmd.configs as any).recommended,
+	{
+		rules: {
+			"require-await": "error" // Use base rule for stricter checking
+		}
+	},
 	globalIgnores([
 		"node_modules",
 		"dist",
