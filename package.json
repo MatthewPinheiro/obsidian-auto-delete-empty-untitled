@@ -1,6 +1,6 @@
 {
 	"name": "obsidian-auto-delete-empty-untitled",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Automatically deletes empty 'Untitled' files when they are closed.",
 	"main": "main.js",
 	"type": "module",
