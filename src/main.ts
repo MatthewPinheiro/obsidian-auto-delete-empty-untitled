@@ -3,7 +3,7 @@ import { Plugin, TFile } from 'obsidian';
 export default class AutoDeleteEmptyUntitledPlugin extends Plugin {
 	private openFiles: Map<string, TFile> = new Map();
 
-	async onload() {
+	onload() {
 		// Register event for when a file is opened
 		this.registerEvent(
 			this.app.workspace.on('file-open', (file) => {
